@@ -1,2 +1,32 @@
-# Local Netlify folder
-.netlify
+# Dependencies
+node_modules/
+
+# Build output and generated caches
+dist/
+.output/
+.vite/
+.tanstack/
+.cache/
+/foo.css
+
+# Local Netlify state
+.netlify/
+
+# Local AI assistant skill bundles
+.agents/
+.claude/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
